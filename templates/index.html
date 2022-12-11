@@ -1,0 +1,25 @@
+{% extends 'base.html' %} {% block head %}
+<title>HOME</title>
+{% endblock %} {% block body %}
+<h1>Home page</h1>
+<div class="jumbotron">
+  <div class="col-sm-8 mx-auto">
+    <h1>Welcome to my website</h1>
+    <p>
+      This my first bootstrap rendered page done while trying flask framework
+      for the first time. for more works of min check my github
+      <a href="/docs/4.6/examples/navbar-static/">top</a> and
+      <a href="/docs/4.6/examples/navbar-fixed/">fixed top</a> examples.
+    </p>
+    <p>
+      At the smallest breakpoint, the collapse plugin is used to hide the links
+      and show a menu button to toggle the collapsed content.
+    </p>
+    <p>
+      <a class="btn btn-primary" href="/posts" role="button"
+        >Go to Blog Posts &raquo;</a
+      >
+    </p>
+  </div>
+</div>
+{% endblock%}
